@@ -1,0 +1,52 @@
+.MuiContainer-root.book-details {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 150px 0 100px 0;
+  }
+  
+  .book-details .image-wrapper img {
+    width: 100%;
+  }
+  
+  .book-details .text {
+    color: #000;
+  }
+  
+  .book-details .text h2 {
+    color: #000;
+    font-size: 30px;
+  }
+  
+  .book-details .text h3 {color: #000;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  
+  .MuiContainer-root.book-details .custom-button {
+    color: white;
+    background-color: #1C2331;
+  }
+  
+  .MuiContainer-root.book-details .custom-button:hover {
+    color: white;
+    background-color: #2a344a;
+  }
+  
+  .MuiContainer-root.book-details .custom-button svg {
+    margin-right: 10px;
+  }
+  
+  
+  .book-details .MuiGrid-root .MuiGrid-item {
+    padding: 5px 15px;
+  }
+  
+  @media (min-width: 960px) {
+    .MuiContainer-root.book-details {
+      height: 88vh;
+      margin: 40px 0 0;
+    }
+  }
